@@ -1,0 +1,146 @@
+header {
+	background: url('https://481xy61dp22v2uqbx85ez1tw-wpengine.netdna-ssl.com/wp-content/uploads/2016/02/No-Branding-Header-Background-1-300x79.jpg');
+	text-align: center;
+	width: 100%;
+	height: 196px;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay {
+	width: 100%;
+	height: 100%;
+	padding: 45px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	margin-bottom: 30px;
+	margin-right: 90px;
+	text-align: center;
+}
+
+
+.city {
+	background: #DCE1E3;
+	margin: 10px 20px;
+	padding-left: 17px;
+	padding-bottom: 7px;
+	text-transform: capitalize;
+	text-indent: 20px;
+	width: 300px;
+}
+
+.footer {
+	font-family: 'Lexend Mega', sans-serif;
+	font-size: 1.3em;
+	background: #707070;
+	color: white;
+	margin: 30px 20px 0 20px;
+	padding-left: 25px;
+	text-transform: capitalize;
+}
+
+.flex1 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.flex1 div:nth-child(1) {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.flex1 div:nth-child(2) {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.flex1 div:nth-child(3) {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.imageMeteo {
+	width: 220px;
+}
+
+.nomVille {
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	padding-right: 20px;
+}
+
+.etatMeteo {
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.labelChoixville {
+	margin-left: 20px;
+	margin-right: 25px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.flex1>#Lyon {
+	display: none;
+}
+
+.flex1>#Paris {
+	display: none;
+}
+
+
+.flex1>#Marseille {
+	display: none;
+}
+
+
+/* Liste déroulante menu  */
+
+.box {
+
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+
+
+
+.box select {
+	background-color: #0563af;
+	color: white;
+	padding: 12px;
+	width: 250px;
+	border: none;
+	font-size: 20px;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+	-webkit-appearance: button;
+	appearance: button;
+	outline: none;
+}
+
+
+.box:hover::before {
+	color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+	padding: 30px;
+}
